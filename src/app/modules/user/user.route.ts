@@ -12,7 +12,7 @@ router.post(
   UserController.createUser
 )
 router.patch(
-  '/:id',
+  '/update/:id',
   validateRequest(UserValidation.updateUserZodSchema),
   UserController.updateUser
 )
@@ -22,5 +22,3 @@ router.get('/:id', UserController.getSingleUser)
 router.delete('/:id', UserController.deleteUser)
 
 export default router
-
-//everything is okay
