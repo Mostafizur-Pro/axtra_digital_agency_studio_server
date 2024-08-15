@@ -15,6 +15,8 @@ router.post(
   validateRequest(LoginValidation.refreshTokenZodSchema),
   AuthController.refreshToken
 )
-router.get('/userinfo', authenticateToken, AuthController.getUserProfile)
+router.get('/userinfo', 
+  authenticateToken, 
+  AuthController.getUserProfile)
 
 export default router

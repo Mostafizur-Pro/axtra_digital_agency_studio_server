@@ -1,6 +1,4 @@
 import express from 'express'
-import { ENUM_USER_ROLE } from '../../enums/users'
-import auth from '../../middlewares/auth'
 import validateRequest from '../../middlewares/validateRequest'
 import { UserController } from './user.controller'
 import { UserValidation } from './user.validation'

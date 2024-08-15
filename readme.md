@@ -1,29 +1,38 @@
-# Kormo Bazaar
+# Axtra Digital Agency Studio
 
-Welcome to Kormo Bazaar! This is a job portal application where users can view, edit, and delete job posts.
+Welcome to Axtra Digital Agency Studio! This is the frontend for the project, built with React. It provides a user interface to interact with the backend services, including user authentication and profile management.
+
 
 ## Live Demo Client
 
-You can view the live client application here: [Kormo Bazaar Live](https://kormo-bazaar.vercel.app/)
+You can view the live client application here: [Axtra Digital Agency Live](https://axtra-digital-agency-studio.vercel.app/)
 
 ## Live Demo Server
 
-The server for this application can be found here: [Kormo Bazaar Server](https://kormo-bazar-server1.vercel.app/)
+The server for this application can be found here: [Axtra Digital Agency Server](https://axtra-digital-agency-studio-server.vercel.app/)
 
 ## Git Repository Client
 
-You can view the client-side code here: [Kormo Bazaar Client Repository](https://github.com/Mostafizur-Pro/kormoBazar/)
+You can view the client-side code here: [Axtra Digital Agency Client Repository](https://github.com/Mostafizur-Pro/kormoBazar/)
 
 ## Git Repository Server
 
-You can view the server-side code here: [Kormo Bazaar Server Repository](https://github.com/Mostafizur-Pro/kormoBazarServer1/)
+You can view the server-side code here: [Axtra Digital Agency Server Repository](https://github.com/Mostafizur-Pro/axtra_digital_agency_studio_server/)
 
 ## Features
 
-- **View Job Posts**: Browse through a list of available job posts.
-- **Filter Jobs**: Filter job posts by category.
-- **Edit Jobs**: Edit job details if you are the owner of the job post.
-- **Delete Jobs**: Delete job posts if you are the owner of the job post.
+- User authentication (login/logout)
+- Profile management (view and edit profile information)
+- Responsive design with Tailwind CSSt.
+
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Axios**: HTTP client for making API requests.
+- **React Hook Form**: Library for handling form state and validation.
+
 
 ## Setup Instructions
 
@@ -32,13 +41,13 @@ You can view the server-side code here: [Kormo Bazaar Server Repository](https:/
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Mostafizur-Pro/kormoBazar.git
+   git clone https://github.com/Mostafizur-Pro/axtra_digital_agency_studio.git
    ```
 
 2. **Navigate to the frontend directory:**
 
    ```bash
-   cd kormoBazar
+   cd axtra_digital_agency_studio
    ```
 
 3. **Install dependencies:**
@@ -58,13 +67,13 @@ You can view the server-side code here: [Kormo Bazaar Server Repository](https:/
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Mostafizur-Pro/kormoBazarServer1.git
+   git clone https://github.com/Mostafizur-Pro/axtra_digital_agency_studio_server.git
    ```
 
 2. **Navigate to the backend directory:**
 
    ```bash
-   cd kormoBazarServer1
+   cd axtra_digital_agency_studio_server
    ```
 
 3. **Install dependencies:**
@@ -79,7 +88,7 @@ You can view the server-side code here: [Kormo Bazaar Server Repository](https:/
    npm run dev
    ```
 
-## API Endpoints
+<!-- ## API Endpoints
 
 1. **Job Post API:**
 
@@ -95,7 +104,7 @@ You can view the server-side code here: [Kormo Bazaar Server Repository](https:/
 
 3. **Auth API:**
    - **POST /api/v1/auth/login**: Login user.
-   - **GET /api/v1/auth/userinfo**: Find user by token.
+   - **GET /api/v1/auth/userinfo**: Find user by token. -->
 
 ## Contributing
 
